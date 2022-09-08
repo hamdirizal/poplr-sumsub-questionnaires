@@ -1429,6 +1429,48 @@
           "options": null
         },
         {
+          "id": "director1ProofOfIdentity",
+          "title": "Director 1 - Proof of Identity",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 1 - Proof of Identity"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": true,
+          "format": null,
+          "condition": "",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director1ProofOfAddress",
+          "title": "Director 1 - Proof of Address",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 1 - Proof of Address"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": true,
+          "format": null,
+          "condition": "",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
           "id": "director2FullName",
           "title": "Director 2 - Full name",
           "localizedTitle": {
@@ -1486,6 +1528,48 @@
           "type": "text",
           "required": false,
           "format": "",
+          "condition": "companyDirectors.director1FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director2ProofOfIdentity",
+          "title": "Director 2 - Proof of Identity",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 2 - Proof of Identity"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
+          "condition": "companyDirectors.director1FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director2ProofOfAddress",
+          "title": "Director 2 - Proof of Address",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 2 - Proof of Address"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
           "condition": "companyDirectors.director1FullName",
           "placeholder": "",
           "localizedPlaceholder": null,
@@ -1555,6 +1639,48 @@
           "options": null
         },
         {
+          "id": "director3ProofOfIdentity",
+          "title": "Director 3 - Proof of Identity",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 3 - Proof of Identity"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
+          "condition": "companyDirectors.director2FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director3ProofOfAddress",
+          "title": "Director 3 - Proof of Address",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 3 - Proof of Address"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
+          "condition": "companyDirectors.director2FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
           "id": "director4FullName",
           "title": "Director 4 - Full name",
           "localizedTitle": {
@@ -1612,6 +1738,48 @@
           "type": "text",
           "required": false,
           "format": "",
+          "condition": "companyDirectors.director3FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director4ProofOfIdentity",
+          "title": "Director 4 - Proof of Identity",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 4 - Proof of Identity"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
+          "condition": "companyDirectors.director3FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director4ProofOfAddress",
+          "title": "Director 4 - Proof of Address",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 4 - Proof of Address"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
           "condition": "companyDirectors.director3FullName",
           "placeholder": "",
           "localizedPlaceholder": null,
@@ -1681,6 +1849,48 @@
           "options": null
         },
         {
+          "id": "director5ProofOfIdentity",
+          "title": "Director 5 - Proof of Identity",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 5 - Proof of Identity"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
+          "condition": "companyDirectors.director4FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director5ProofOfAddress",
+          "title": "Director 5 - Proof of Address",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 5 - Proof of Address"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
+          "condition": "companyDirectors.director4FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
           "id": "director6FullName",
           "title": "Director 6 - Full name",
           "localizedTitle": {
@@ -1738,6 +1948,48 @@
           "type": "text",
           "required": false,
           "format": "",
+          "condition": "companyDirectors.director5FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director6ProofOfIdentity",
+          "title": "Director 6 - Proof of Identity",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 6 - Proof of Identity"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
+          "condition": "companyDirectors.director5FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director6ProofOfAddress",
+          "title": "Director 6 - Proof of Address",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 6 - Proof of Address"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
           "condition": "companyDirectors.director5FullName",
           "placeholder": "",
           "localizedPlaceholder": null,
@@ -1807,6 +2059,48 @@
           "options": null
         },
         {
+          "id": "director7ProofOfIdentity",
+          "title": "Director 7 - Proof of Identity",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 7 - Proof of Identity"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
+          "condition": "companyDirectors.director6FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director7ProofOfAddress",
+          "title": "Director 7 - Proof of Address",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 7 - Proof of Address"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
+          "condition": "companyDirectors.director6FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
           "id": "director8FullName",
           "title": "Director 8 - Full name",
           "localizedTitle": {
@@ -1864,6 +2158,48 @@
           "type": "text",
           "required": false,
           "format": "",
+          "condition": "companyDirectors.director7FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director8ProofOfIdentity",
+          "title": "Director 8 - Proof of Identity",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 8 - Proof of Identity"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
+          "condition": "companyDirectors.director7FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director8ProofOfAddress",
+          "title": "Director 8 - Proof of Address",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 8 - Proof of Address"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
           "condition": "companyDirectors.director7FullName",
           "placeholder": "",
           "localizedPlaceholder": null,
@@ -1933,6 +2269,48 @@
           "options": null
         },
         {
+          "id": "director9ProofOfIdentity",
+          "title": "Director 9 - Proof of Identity",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 9 - Proof of Identity"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
+          "condition": "companyDirectors.director8FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director9ProofOfAddress",
+          "title": "Director 9 - Proof of Address",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 9 - Proof of Address"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
+          "condition": "companyDirectors.director8FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
           "id": "director10FullName",
           "title": "Director 10 - Full name",
           "localizedTitle": {
@@ -1990,6 +2368,48 @@
           "type": "text",
           "required": false,
           "format": "",
+          "condition": "companyDirectors.director9FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director10ProofOfIdentity",
+          "title": "Director 10 - Proof of Identity",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 10 - Proof of Identity"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
+          "condition": "companyDirectors.director9FullName",
+          "placeholder": "",
+          "localizedPlaceholder": null,
+          "options": null
+        },
+        {
+          "id": "director10ProofOfAddress",
+          "title": "Director 10 - Proof of Address",
+          "localizedTitle": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "Director 10 - Proof of Address"
+              }
+            ]
+          },
+          "desc": "",
+          "localizedDesc": null,
+          "type": "fileAttachment",
+          "required": false,
+          "format": null,
           "condition": "companyDirectors.director9FullName",
           "placeholder": "",
           "localizedPlaceholder": null,
