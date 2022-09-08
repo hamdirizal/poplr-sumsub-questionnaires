@@ -4024,49 +4024,7 @@
           "placeholder": "",
           "localizedPlaceholder": null,
           "options": null
-        },
-        {
-          "id": "certifiedIdentityDirectors",
-          "title": "Certified proof of Identity of all directors, beneficiaries, and primary account holder.",
-          "localizedTitle": {
-            "values": [
-              {
-                "lang": "en",
-                "value": "Certified proof of Identity of all directors, beneficiaries, and primary account holder."
-              }
-            ]
-          },
-          "desc": "",
-          "localizedDesc": null,
-          "type": "fileAttachment",
-          "required": true,
-          "format": null,
-          "condition": "",
-          "placeholder": "",
-          "localizedPlaceholder": null,
-          "options": null
-        },
-        {
-          "id": "certifiedResidencyDirectors",
-          "title": "Certified proof of Residency/Address of all directors, beneficiaries, and primary account holder.",
-          "localizedTitle": {
-            "values": [
-              {
-                "lang": "en",
-                "value": "Certified proof of Residency/Address of all directors, beneficiaries, and primary account holder."
-              }
-            ]
-          },
-          "desc": "",
-          "localizedDesc": null,
-          "type": "fileAttachment",
-          "required": true,
-          "format": null,
-          "condition": "",
-          "placeholder": "",
-          "localizedPlaceholder": null,
-          "options": null
-        },
+        },        
         {
           "id": "chkCompanyNotInSanctionedCountries",
           "title": "I certify any person controlling or controlled by the Company, or any person having a beneficial interest in the Company, or any person for whom the Company is acting as agent of nominee in connection with the account, is not located in a country or territory named on any federal government list of known or suspected terrorists or terrorist organization or sanctioned countries.",
