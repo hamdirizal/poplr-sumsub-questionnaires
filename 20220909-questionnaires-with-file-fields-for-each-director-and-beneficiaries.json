@@ -13,7 +13,7 @@
   "localizedDesc": {
     "values": null
   },
-  "modifiable": null,
+  "modifiable": true,
   "sections": [
     {
       "id": "extra",
@@ -2528,10 +2528,17 @@
           "localizedDesc": null,
           "type": "text",
           "required": true,
-          "format": "",
+          "format": "between:0,100",
           "condition": "",
-          "placeholder": "",
-          "localizedPlaceholder": null,
+          "placeholder": "0 - 100",
+          "localizedPlaceholder": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "0 - 100"
+              }
+            ]
+          },
           "options": null
         },
         {
