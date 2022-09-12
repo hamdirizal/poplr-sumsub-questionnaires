@@ -1184,10 +1184,17 @@
           "localizedDesc": null,
           "type": "text",
           "required": true,
-          "format": "regex:^\\d{5}$",
+          "format": "regex:^\\d{5}(-\\d{4})?$",
           "condition": "",
-          "placeholder": "",
-          "localizedPlaceholder": null,
+          "placeholder": "00000 or 00000-0000",
+          "localizedPlaceholder": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "00000 or 00000-0000"
+              }
+            ]
+          },
           "options": null
         },
         {
