@@ -1274,8 +1274,8 @@
             ]
           },
           "type": "text",
-          "required": false,
-          "format": "",
+          "required": true,
+          "format": "regex:^\\d{2}\\-?\\d{7}$",
           "condition": "",
           "placeholder": "",
           "localizedPlaceholder": null,
