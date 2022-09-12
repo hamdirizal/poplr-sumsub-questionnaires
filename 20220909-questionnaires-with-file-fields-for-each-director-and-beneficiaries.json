@@ -1184,7 +1184,7 @@
           "localizedDesc": null,
           "type": "text",
           "required": true,
-          "format": "",
+          "format": "regex:^\\d{5}$",
           "condition": "",
           "placeholder": "",
           "localizedPlaceholder": null,
@@ -4024,7 +4024,7 @@
           "placeholder": "",
           "localizedPlaceholder": null,
           "options": null
-        },        
+        },
         {
           "id": "chkCompanyNotInSanctionedCountries",
           "title": "I certify any person controlling or controlled by the Company, or any person having a beneficial interest in the Company, or any person for whom the Company is acting as agent of nominee in connection with the account, is not located in a country or territory named on any federal government list of known or suspected terrorists or terrorist organization or sanctioned countries.",
