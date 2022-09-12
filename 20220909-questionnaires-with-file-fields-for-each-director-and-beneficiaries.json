@@ -2682,10 +2682,17 @@
           "localizedDesc": null,
           "type": "text",
           "required": false,
-          "format": "",
+          "format": "between:0,100",
           "condition": "companyBeneficiaries.beneficiary1FullName",
-          "placeholder": "",
-          "localizedPlaceholder": null,
+          "placeholder": "0 - 100",
+          "localizedPlaceholder": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "0 - 100"
+              }
+            ]
+          },
           "options": null
         },
         {
@@ -2829,10 +2836,17 @@
           "localizedDesc": null,
           "type": "text",
           "required": false,
-          "format": "",
+          "format": "between:0,100",
           "condition": "companyBeneficiaries.beneficiary2FullName",
-          "placeholder": "",
-          "localizedPlaceholder": null,
+          "placeholder": "0 - 100",
+          "localizedPlaceholder": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "0 - 100"
+              }
+            ]
+          },
           "options": null
         },
         {
@@ -2976,10 +2990,17 @@
           "localizedDesc": null,
           "type": "text",
           "required": false,
-          "format": "",
+          "format": "between:0,100",
           "condition": "companyBeneficiaries.beneficiary3FullName",
-          "placeholder": "",
-          "localizedPlaceholder": null,
+          "placeholder": "0 - 100",
+          "localizedPlaceholder": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "0 - 100"
+              }
+            ]
+          },
           "options": null
         },
         {
@@ -3123,10 +3144,17 @@
           "localizedDesc": null,
           "type": "text",
           "required": false,
-          "format": "",
+          "format": "between:0,100",
           "condition": "companyBeneficiaries.beneficiary4FullName",
-          "placeholder": "",
-          "localizedPlaceholder": null,
+          "placeholder": "0 - 100",
+          "localizedPlaceholder": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "0 - 100"
+              }
+            ]
+          },
           "options": null
         },
         {
@@ -3270,10 +3298,17 @@
           "localizedDesc": null,
           "type": "text",
           "required": false,
-          "format": "",
+          "format": "between:0,100",
           "condition": "companyBeneficiaries.beneficiary5FullName",
-          "placeholder": "",
-          "localizedPlaceholder": null,
+          "placeholder": "0 - 100",
+          "localizedPlaceholder": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "0 - 100"
+              }
+            ]
+          },
           "options": null
         },
         {
@@ -3417,10 +3452,17 @@
           "localizedDesc": null,
           "type": "text",
           "required": false,
-          "format": "",
+          "format": "between:0,100",
           "condition": "companyBeneficiaries.beneficiary6FullName",
-          "placeholder": "",
-          "localizedPlaceholder": null,
+          "placeholder": "0 - 100",
+          "localizedPlaceholder": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "0 - 100"
+              }
+            ]
+          },
           "options": null
         },
         {
@@ -3564,10 +3606,17 @@
           "localizedDesc": null,
           "type": "text",
           "required": false,
-          "format": "",
+          "format": "between:0,100",
           "condition": "companyBeneficiaries.beneficiary7FullName",
-          "placeholder": "",
-          "localizedPlaceholder": null,
+          "placeholder": "0 - 100",
+          "localizedPlaceholder": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "0 - 100"
+              }
+            ]
+          },
           "options": null
         },
         {
@@ -3711,10 +3760,17 @@
           "localizedDesc": null,
           "type": "text",
           "required": false,
-          "format": "",
+          "format": "between:0,100",
           "condition": "companyBeneficiaries.beneficiary8FullName",
-          "placeholder": "",
-          "localizedPlaceholder": null,
+          "placeholder": "0 - 100",
+          "localizedPlaceholder": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "0 - 100"
+              }
+            ]
+          },
           "options": null
         },
         {
@@ -3858,10 +3914,17 @@
           "localizedDesc": null,
           "type": "text",
           "required": false,
-          "format": "",
+          "format": "between:0,100",
           "condition": "companyBeneficiaries.beneficiary9FullName",
-          "placeholder": "",
-          "localizedPlaceholder": null,
+          "placeholder": "0 - 100",
+          "localizedPlaceholder": {
+            "values": [
+              {
+                "lang": "en",
+                "value": "0 - 100"
+              }
+            ]
+          },
           "options": null
         },
         {
