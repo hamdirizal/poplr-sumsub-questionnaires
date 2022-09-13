@@ -1282,34 +1282,6 @@
           "options": null
         },
         {
-          "id": "dontHaveATin",
-          "title": "Don't have a TIN",
-          "localizedTitle": {
-            "values": [
-              {
-                "lang": "en",
-                "value": "Don't have a TIN"
-              }
-            ]
-          },
-          "desc": "If you don't have a TIN, please detail why",
-          "localizedDesc": {
-            "values": [
-              {
-                "lang": "en",
-                "value": "If you don't have a TIN, please detail why"
-              }
-            ]
-          },
-          "type": "text",
-          "required": false,
-          "format": "",
-          "condition": "",
-          "placeholder": "",
-          "localizedPlaceholder": null,
-          "options": null
-        },
-        {
           "id": "entityAuthority",
           "title": "Entity Authority",
           "localizedTitle": {
