@@ -1,0 +1,12 @@
+div[name*="ProofOfAddress"] {
+  margin-bottom: 70px; 
+}
+.input-field.narrow-row:has(.checkbox-item) {
+  position: relative;
+  padding-left: 40px
+}
+.input-field.narrow-row .checkbox-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
