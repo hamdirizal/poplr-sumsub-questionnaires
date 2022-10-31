@@ -9,4 +9,5 @@ div[name*="ProofOfAddress"] {
   position: absolute;
   top: 0;
   left: 0;
-}
+} 
+.select-dropdown .list li:first-child {display: none;}
