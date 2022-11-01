@@ -10,4 +10,5 @@ div[name*="ProofOfAddress"] {
   top: 0;
   left: 0;
 } 
-.select-dropdown .list li:first-child {display: none;}
+.select-dropdown .list li:first-child,
+.select-dropdown option:first-child {display: none;}
