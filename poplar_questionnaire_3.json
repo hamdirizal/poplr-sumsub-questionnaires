@@ -4064,12 +4064,12 @@
               }
             ]
           },
-          "desc": "PDF is required",
+          "desc": "PDF, PNG, or JPG is required",
           "localizedDesc": {
             "values": [
               {
                 "lang": "en",
-                "value": "PDF is required"
+                "value": "PDF, PNG, or JPG is required"
               }
             ]
           },
